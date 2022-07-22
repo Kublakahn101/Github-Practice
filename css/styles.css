@@ -1,0 +1,31 @@
+.column {
+    float: left;
+    width: 25%;
+    height: 100px;
+}
+
+#col-1 {
+    background-color:blueviolet
+}
+
+#col-2 {
+    background-color: gold
+}
+
+#col-3 {
+    background-color: blue;
+}
+
+#col-4 {
+    background-color: lightpink;
+}
+
+.row:after {
+    content: "";
+    display: table;
+   clear: both;  
+}
+
+h2 {
+    margin-top: 200px;
+}
